@@ -66,7 +66,7 @@ export default function Home() {
         </div>
       </div>
       <section className="w-9/12 md:w-auto m-auto mt-10 row-start-2 col-start-2 col-span-2 max-w-3xl">
-        <p className="text-lg text-center md:text-left">
+        <p className="text-md md:text-lg text-center md:text-left">
           Apaixonado por computadores desde que me entendo por gente, e sempre
           curioso pra saber como tudo funciona, Comecei a programar com 14 anos
           em Python, quando descobri as linguagens de programação. Desde então
@@ -88,10 +88,11 @@ export default function Home() {
           repositoryLink="https://github.com/ArthurEstevaum/OpenRPG"
           imageLink="/open-rpg.jpg"
         >
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et
-          consectetur, quos quisquam asperiores commodi quia nemo ipsa, incidunt
-          debitis architecto nostrum reiciendis quo aperiam maiores alias earum
-          sunt cupiditate quas?
+          Open RPG é uma plataforma para descomplicar o mundo de RPG de mesa
+          para todos os jogadores, desde os novatos aos mais calejados
+          aventureiros. Open RPG torna possível encontrar outros jogadores e
+          mestres para que possam trilhar épicas aventuras, aprender sobre novas
+          formas de jogar e trocar ideias com outros aventureiros.
         </ProjectInfo>
         <ProjectInfo
           title="Akademika"
@@ -100,11 +101,79 @@ export default function Home() {
           imageLink="/akademika.png"
           repositoryLink="https://github.com/ArthurEstevaum/akademika"
         >
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quos
-          accusantium quam perspiciatis voluptates vero consequatur dolorum
-          deleniti, atque assumenda, vel velit facilis, harum fugiat
-          consequuntur repellat? Ipsam, nihil vitae.
+          Com a Akademika, organizar seus estudos é mamão com açúcar. O app
+          permite que qualquer estudante mantenha suas anotações, tópicos de
+          estudo e datas importantes perfeitamente organizados, sem a
+          necessidade de sistemas complexos ou montes de papéis. Com apenas
+          alguns passos, você pode ficar despreocupado e focar no que realmente
+          importa: aprender.
         </ProjectInfo>
+        <ProjectInfo
+          title="Open ERP"
+          inDevelopment
+          technologies="Java Spring, React, TailwindCSS"
+          imageLink="/open-erp.png"
+          repositoryLink="https://github.com/ArthurEstevaum/open-erp"
+        >
+          Open ERP é um sistema desenvolvido para facilitar a vida de todos os
+          microempreendedores, tornando a organização e planejamento do seu
+          negócio extremamente simples e eficaz através de módulos poderosos,
+          flexíveis e intuitivos, sem que ninguém precise arrancar seus cabelos.
+        </ProjectInfo>
+      </section>
+      <section className="w-10/12 max-w-7xl mt-10 m-auto space-y-8 md:mt-16 col-start-2 row-start-3">
+        <h2 className="text-4xl font-semibold text-center" id="Projetos">
+          Habilidades Técnicas
+        </h2>
+        <ul className="flex flex-wrap justify-center md:justify-start items-center">
+          {[
+            "PHP and Laravel",
+            "React",
+            "PHPUnit",
+            "Next.JS",
+            "Docker",
+            "SQL",
+            "TypeScript",
+            "Node and Deno",
+            "Vitest/Jest",
+            "Java and Spring",
+            "Vue",
+            "TailwindCSS",
+            "Python",
+          ].map((technology) => (
+            <li
+              className="m-3 p-2 px-4 border border-gray-500 rounded-md hover:scale-125 hover:bg-gray-700 transition duration-300 ease-out 300"
+              key={technology}
+            >
+              {technology}
+            </li>
+          ))}
+        </ul>
+      </section>
+      <section className="w-10/12 max-w-5xl mt-10 m-auto space-y-8 md:mt-16 col-start-2 row-start-3">
+        <h2 className="text-4xl font-semibold text-center" id="Projetos">
+          Experiência
+        </h2>
+        <h3 className="text-2xl font-semibold text-left">
+          Estágio em sistemas e projetos - Rolimec soluções industriais
+        </h3>
+        <h4 className="text-xl font-semibold">Setembro 2024 - Presente</h4>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus,
+          aliquam! Exercitationem illum aliquam tenetur nesciunt asperiores,
+          perferendis qui quae magnam fugiat mollitia ratione officiis inventore
+          quod aut eum tempore sequi.
+        </p>
+        <h3 className="text-2xl font-semibold text-left">
+          Aprendiz em Infraestrutura e suporte - Rolimec soluções industriais
+        </h3>
+        <h4 className="text-xl font-semibold">Julho 2023 - Setembro 2024</h4>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus,
+          aliquam! Exercitationem illum aliquam tenetur nesciunt asperiores,
+          perferendis qui quae magnam fugiat mollitia ratione officiis inventore
+          quod aut eum tempore sequi.
+        </p>
       </section>
     </main>
   );
