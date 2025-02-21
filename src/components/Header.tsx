@@ -5,8 +5,8 @@ import project from "../../public/project.svg";
 
 export default function Header() {
   return (
-    <header className="w-11/12 md:w-8/12 lg:w-5/12 m-auto mt-10 mb-16 sticky top-5">
-      <nav className="py-3 flex justify-around items-center rounded-2xl backdrop-blur-xl border border-gray-700">
+    <header className="w-11/12 md:w-8/12 lg:w-5/12 m-auto mb-16 sticky top-5">
+      <nav className="py-3 flex justify-around items-center rounded-2xl backdrop-blur-xl backdrop-brightness-[70%] border border-gray-700">
         <a href="#Home" className="flex justify-center items-center space-x-3 md:space-x-7">
           <Image
             src={home}

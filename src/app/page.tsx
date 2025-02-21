@@ -67,18 +67,20 @@ export default function Home() {
       </div>
       <section className="w-9/12 md:w-auto m-auto mt-10 row-start-2 col-start-2 col-span-2 max-w-3xl">
         <p className="text-lg text-center md:text-left">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum
+          Apaixonado por computadores desde que me entendo por gente, e sempre
+          curioso pra saber como tudo funciona, Comecei a programar com 14 anos
+          em Python, quando descobri as linguagens de programação. Desde então
+          aprendi outras linguagens como Javascript e PHP, e tenho me aventurado
+          em Clojure (uma linguagem funcional que estou amando aprender) além de
+          tópicos mais aprofundados como Programação funcional, TDD (Test driven
+          development), arquitetura de sistemas, coisas que adoro descobrir.
         </p>
       </section>
 
       <section className="w-10/12 max-w-7xl mt-10 m-auto space-y-8 md:mt-16 col-start-2 row-start-3">
-        <h2 className="text-4xl font-semibold text-center" id="Projetos">Projetos</h2>
+        <h2 className="text-4xl font-semibold text-center" id="Projetos">
+          Projetos
+        </h2>
         <ProjectInfo
           title="Open RPG"
           inDevelopment

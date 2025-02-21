@@ -22,7 +22,7 @@ export default function ProjectInfo({title, inDevelopment, technologies, imageLi
       <div className="space-y-6">
         <h3 className="text-xl md:text-2xl lg:text-3xl font-semibold">
           {title}
-          <span className="text-xs sm:text-sm font-normal rounded-full bg-red-500 p-1 ml-4">
+          <span className="text-xs sm:text-sm font-normal rounded-full bg-red-300 text-gray-800 p-1 px-3 ml-4">
             { inDevelopment? "em desenvolvimento" : "" }
           </span>
         </h3>
