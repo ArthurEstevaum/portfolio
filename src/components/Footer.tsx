@@ -17,7 +17,7 @@ export default function Footer() {
             className="invert"
           />
         </a>
-        <a target="_blank" href="https://github.com/ArthurEstevaum/">
+        <a target="_blank" href="https://www.linkedin.com/in/arthur-estev%C3%A3o-304707260/">
           <Image
             src={linkedinIcon}
             alt="LinkedIn icon"
@@ -25,7 +25,7 @@ export default function Footer() {
             height={32}
           />
         </a>
-        <a target="_blank" href="https://github.com/ArthurEstevaum/">
+        <a target="_blank" href="mail-to:arthurestevao631@gmail.com">
           <Image
             src={mailIcon}
             alt="mail icon"
