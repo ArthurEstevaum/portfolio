@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Montserrat } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
-
+import Footer from "@/components/Footer";
 
 
 const montSerrat = Montserrat({
@@ -24,6 +24,7 @@ export default function RootLayout({
       <body className={`${montSerrat.className} antialiased`}>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );

@@ -73,7 +73,7 @@ export default function Home() {
           aprendi outras linguagens como Javascript e PHP, e tenho me aventurado
           em Clojure (uma linguagem funcional que estou amando aprender) além de
           tópicos mais aprofundados como Programação funcional, TDD (Test driven
-          development), arquitetura de sistemas, coisas que adoro descobrir.
+          development), arquitetura de sistemas, e outros assuntos que adoro descobrir.
         </p>
       </section>
 
@@ -150,7 +150,7 @@ export default function Home() {
           ))}
         </ul>
       </section>
-      <section className="w-10/12 max-w-5xl mt-10 m-auto space-y-8 md:mt-16 col-start-2 row-start-3">
+      <section className="w-10/12 max-w-3xl mt-10 m-auto space-y-8 md:mt-16 col-start-2 row-start-3">
         <h2 className="text-4xl font-semibold text-center" id="Projetos">
           Experiência
         </h2>
@@ -174,6 +174,21 @@ export default function Home() {
           perferendis qui quae magnam fugiat mollitia ratione officiis inventore
           quod aut eum tempore sequi.
         </p>
+      </section>
+      <section className="w-10/12 max-w-3xl mt-10 m-auto space-y-8 md:mt-16 col-start-2 row-start-3">
+        <h2 className="text-4xl font-semibold text-center" id="Projetos">
+          Formação
+        </h2>
+        <h3 className="text-2xl font-semibold text-left">
+          Análise e desenvolvimento de sistemas - CESAR School
+        </h3>
+        <h4 className="text-xl font-semibold">Agosto 2024 - Presente</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus debitis ullam maxime animi. Ad voluptas eum autem. Provident adipisci consequuntur doloremque sint sed praesentium officia pariatur. Quisquam aspernatur inventore mollitia!</p>
+        <h3 className="text-2xl font-semibold text-left">
+          Técnico em Manutenção e suporte em informática - ETEPAM
+        </h3>
+        <h4 className="text-xl font-semibold">2020 - 2022</h4>
+        <p>Durante meu período de estudos no curso, pude descobrir e aprender as mais diversas áreas da computação, como redes de computadores, manutenção, administração de sistemas, infraestrutura e programação. Com isso, obti muita versatilidade e conhecimentos multidisciplinares na área, que me permitiram ter uma ótima base como desenvolvedor.</p>
       </section>
     </main>
   );
