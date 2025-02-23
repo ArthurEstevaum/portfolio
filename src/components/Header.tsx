@@ -21,7 +21,7 @@ export default function Header() {
           <Image src={project} alt="Project icon" width={24} height={24} />
           <p>Projetos</p>
         </a>
-        <a className="flex justify-center items-center space-x-3 md:space-x-7">
+        <a href="#Exp" className="flex justify-center items-center space-x-3 md:space-x-7">
           <Image
             src={info}
             alt="Info icon"

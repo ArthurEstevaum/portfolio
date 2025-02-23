@@ -73,7 +73,8 @@ export default function Home() {
           aprendi outras linguagens como Javascript e PHP, e tenho me aventurado
           em Clojure (uma linguagem funcional que estou amando aprender) além de
           tópicos mais aprofundados como Programação funcional, TDD (Test driven
-          development), arquitetura de sistemas, e outros assuntos que adoro descobrir.
+          development), arquitetura de sistemas, e outros assuntos que adoro
+          descobrir.
         </p>
       </section>
 
@@ -150,8 +151,8 @@ export default function Home() {
           ))}
         </ul>
       </section>
-      <section className="w-10/12 max-w-3xl mt-10 m-auto space-y-8 md:mt-16 col-start-2 row-start-3">
-        <h2 className="text-4xl font-semibold text-center" id="Projetos">
+      <section className="w-10/12 max-w-4xl mt-10 m-auto space-y-8 md:mt-16 col-start-2 row-start-3">
+        <h2 id="Exp" className="text-4xl font-semibold text-center">
           Experiência
         </h2>
         <h3 className="text-2xl font-semibold text-left">
@@ -159,36 +160,65 @@ export default function Home() {
         </h3>
         <h4 className="text-xl font-semibold">Setembro 2024 - Presente</h4>
         <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus,
-          aliquam! Exercitationem illum aliquam tenetur nesciunt asperiores,
-          perferendis qui quae magnam fugiat mollitia ratione officiis inventore
-          quod aut eum tempore sequi.
+          Durante meu estágio, participei ativamente da migração do sistema ERP
+          da empresa de uma infraestrutura on-premise para a nuvem. Nesse
+          processo, forneci suporte técnico aos colaboradores, auxiliando-os a
+          manter a produtividade durante a transição, garantindo uma adaptação
+          suave. Atualmente, contribuo para a documentação e normalização dos
+          processos do departamento de TI, e otimizei o uso do servidor de
+          acesso remoto. Essa experiência está sendo fundamental para o meu
+          crescimento, permitindo-me desenvolver habilidades técnicas avançadas
+          em infraestrutura de TI e sistemas em nuvem. Também aprimorei minha
+          colaboração em equipe, entendendo a importância da tecnologia na
+          eficiência operacional de uma empresa e reforçando meu compromisso em
+          buscar soluções inovadoras no campo da TI.
         </p>
         <h3 className="text-2xl font-semibold text-left">
           Aprendiz em Infraestrutura e suporte - Rolimec soluções industriais
         </h3>
         <h4 className="text-xl font-semibold">Julho 2023 - Setembro 2024</h4>
         <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus,
-          aliquam! Exercitationem illum aliquam tenetur nesciunt asperiores,
-          perferendis qui quae magnam fugiat mollitia ratione officiis inventore
-          quod aut eum tempore sequi.
+          Na minha primeira experiência profissional, tive a oportunidade de
+          atuar diretamente no suporte técnico aos colaboradores da empresa, o
+          que foi fundamental para o desenvolvimento das minhas habilidades
+          interpessoais e o aprofundamento do meu conhecimento técnico. Fui
+          responsável por auxiliar no gerenciamento de sistemas corporativos
+          essenciais, como o Active Directory, essa posição exigiu que eu
+          desenvolvesse soft skills cruciais. Ao interagir diariamente com
+          profissionais de diversas áreas, refinei minha capacidade de
+          comunicação clara e eficaz, traduzindo termos técnicos em linguagem
+          acessível. Aprendi que a tecnologia não se trata apenas de máquinas e
+          sistemas, mas também de pessoas e das relações que estabelecemos para
+          impulsionar resultados positivos.
         </p>
       </section>
-      <section className="w-10/12 max-w-3xl mt-10 m-auto space-y-8 md:mt-16 col-start-2 row-start-3">
+      <section className="w-10/12 max-w-4xl mt-10 m-auto space-y-8 md:mt-16 col-start-2 row-start-3">
         <h2 className="text-4xl font-semibold text-center" id="Projetos">
           Formação
         </h2>
         <h3 className="text-2xl font-semibold text-left">
-          Análise e desenvolvimento de sistemas - CESAR School
+          Tecnólogo em Análise e desenvolvimento de sistemas - CESAR School
         </h3>
         <h4 className="text-xl font-semibold">Agosto 2024 - Presente</h4>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus debitis ullam maxime animi. Ad voluptas eum autem. Provident adipisci consequuntur doloremque sint sed praesentium officia pariatur. Quisquam aspernatur inventore mollitia!</p>
+        <p>
+          Na CESAR School, pude ir além do aprofundamento técnico tradicional,
+          mergulhando no desenvolvimento de habilidades essenciais como gestão,
+          organização, empreendedorismo e liderança. A participação em projetos
+          como a Residência Tecnológica do Porto Digital foi particularmente
+          enriquecedora, fornecendo conhecimentos valiosos em design thinking e
+          gestão de projetos.
+        </p>
         <h3 className="text-2xl font-semibold text-left">
           Técnico em Manutenção e suporte em informática - ETEPAM
         </h3>
         <h4 className="text-xl font-semibold">2020 - 2022</h4>
-        <p>Durante meu período de estudos no curso, pude descobrir e aprender as mais diversas áreas da computação, como redes de computadores, manutenção, administração de sistemas, infraestrutura e programação. Com isso, obti muita versatilidade e conhecimentos multidisciplinares na área, que me permitiram ter uma ótima base como desenvolvedor.</p>
+        <p>
+          Durante meu período de estudos no curso, pude descobrir e aprender as
+          mais diversas áreas da computação, como redes de computadores,
+          manutenção, administração de sistemas, infraestrutura e programação.
+          Com isso, obti muita versatilidade e conhecimentos multidisciplinares
+          na área, que me permitiram ter uma ótima base como desenvolvedor.
+        </p>
       </section>
     </main>
   );
