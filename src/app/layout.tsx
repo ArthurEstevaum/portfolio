@@ -7,6 +7,7 @@ import Footer from "@/components/Footer";
 
 const montSerrat = Montserrat({
   variable: "--font-montserrat",
+  subsets: ["latin"]
 });
 
 export const metadata: Metadata = {
